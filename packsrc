@@ -1,0 +1,9 @@
+#!/bin/bash
+
+rm ExportToArchive-Src.zip
+zip -r ExportToArchive-Src.zip *.[hm] Info.plist ExportToArchive.xcodeproj/* English.lproj/* -x \*CVS/\*
+
+zip -r ExportToArchive.pkg.zip ExportToArchive.pkg/*
+zip -r ExportToArchive-iPhoto6.pkg.zip ExportToArchive-iPhoto6.pkg/*
+cd build/release
+zip -r ../../ExportToArchive.zip .

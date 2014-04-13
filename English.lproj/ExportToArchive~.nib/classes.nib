@@ -1,0 +1,23 @@
+{
+    IBClasses = (
+        {
+            CLASS = ExportToArchiveController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                mArchiveTypePopUp = NSPopUpButton; 
+                mExportMgr = id; 
+                mFirstView = NSControl; 
+                mSettingsBox = NSBox; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = ExportToArchivePluginBox; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {mPlugin = id; }; 
+            SUPERCLASS = NSBox; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

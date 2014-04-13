@@ -1,0 +1,3 @@
+Export to Archive is a plugin for iPhoto that allows you to 
+select photos from your iPhoto library and export them to three
+different archive types: zip, tar.gz and tar.bz2.
